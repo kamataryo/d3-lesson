@@ -1,0 +1,20 @@
+{
+  "name": "d3-lesson",
+  "version": "1.0.0",
+  "description": "¥",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify main.js -t babelify -o bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "~3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "browserify": "^13.1.1"
+  }
+}
